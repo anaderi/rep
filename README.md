@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/yandex/rep.svg?branch=master)](https://travis-ci.org/yandex/rep)
 [![PyPI version](https://badge.fury.io/py/rep.svg)](https://badge.fury.io/py/rep)
 [![Documentation](https://img.shields.io/badge/documentation-link-blue.svg)](https://yandex.github.io/rep/)
-
+[![CircleCI](https://circleci.com/gh/arogozhnikov/rep.svg?style=svg)](https://circleci.com/gh/arogozhnikov/rep)
 
 __REP__ is ipython-based environment for conducting data-driven research in a consistent and reproducible way.
 
@@ -39,7 +39,9 @@ Examples code is written in python 2, but library is python 2 and python 3 compa
 
 ### Installation with Docker
 
-We provide the [docker image](https://registry.hub.docker.com/u/yandex/rep/) with `REP` and all it's dependencies 
+We provide the [docker image](https://registry.hub.docker.com/u/yandex/rep/) with `REP` and all it's dependencies. 
+It is a recommended way, specially if you're not experienced in python.
+
 * [install with Docker on Linux](https://github.com/yandex/rep/wiki/Install-REP-with-Docker-(Linux))
 * [install with Docker on Mac and Windows](https://github.com/yandex/rep/wiki/Install-REP-with-Docker-(Mac-OS-X,-Windows))
 
